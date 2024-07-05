@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('/Users/glush/Downloads/Telegram Desktop/trytrytry/trytrytry/images/leopard_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.section {
+    text-align: center;
+    padding: 20px;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #f5f5dc; /* beige color */
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; /* rounded corners */
+    font-weight: bold; /* thicker font */
+}
+
+p {
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif; /* Rounded version of Arial if available, else standard Arial */
+    font-size: 16px; /* Adjust size as needed */
+    color: #ff0000; /* Romantic red color for all paragraph texts */
+}
+
+/* Glitter effect using CSS animation */
+@keyframes glitter {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.leopard {
+    animation: glitter 2s linear infinite;
+    background-image: linear-gradient(270deg, rgba(255,255,255,0.2), rgba(255,255,255,0.1) 50%);
+}
+
+.romantic p {
+    background: rgba(255, 192, 203, 0.3); /* Light pink background for a romantic feel */
+    border: 2px solid #ff69b4; /* Hot pink border to enhance the frame */
+    border-radius: 15px; /* Rounded corners for the frame */
+    padding: 15px; /* Padding around the text */
+    margin: 20px auto; /* Centering the paragraph and giving some space around it */
+    width: 80%; /* Control the width of the text block */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.instagram-style {
+    width: 100%; /* Set to match the Instagram style, adjust as needed */
+    max-width: 300px; /* Limits the size */
+    margin: 10px auto; /* Centers the photo */
+}
+
+.small-photo {
+    width: 50%; /* Reduces the size of Nikita's photo by half */
+    display: block; /* Ensures the image is block level */
+    margin: 10px auto; /* Centers the photo */
+}
