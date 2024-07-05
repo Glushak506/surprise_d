@@ -39,13 +39,13 @@ p {
 }
 
 .romantic p {
-    background: rgba(255, 192, 203, 0.3); /* Light pink background for a romantic feel */
-    border: 2px solid #ff69b4; /* Hot pink border to enhance the frame */
+    background: rgba(169, 169, 169, 1); /* Light pink background for a romantic feel */
+    border: 2px solid #000000; /* Hot pink border to enhance the frame */
     border-radius: 15px; /* Rounded corners for the frame */
     padding: 15px; /* Padding around the text */
     margin: 20px auto; /* Centering the paragraph and giving some space around it */
     width: 80%; /* Control the width of the text block */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Soft shadow for depth */
 }
 
 .instagram-style {
