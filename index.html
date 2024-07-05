@@ -1,53 +1,46 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surprise for Dasha</title>
-    <style>
-        body {
-            background: url('leopard-print.jpg') no-repeat center center fixed;
-            background-size: cover;
-            font-family: 'Arial, sans-serif';
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            margin-top: 50px;
-            font-size: 2.5em;
-            color: #ffd700;
-        }
-        p {
-            font-size: 1.2em;
-            margin: 20px 0;
-        }
-        .content {
-            max-width: 800px;
-            margin: auto;
-        }
-        .image-section img, .image-section video {
-            width: 100%;
-            max-width: 400px;
-            border-radius: 10px;
-            margin: 10px;
-        }
-        .quote {
-            font-style: italic;
-            color: #ff69b4;
-        }
-    </style>
+    <title>Dasha's Special Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body>
-    <div class="content">
-        <h1>This is a site for Dasha Milash and her cute little nose</h1>
-        <p class="quote">"I’m sooooo nervous (ну ты же меня знаешь), I hope to melt your heart."</p>
-        <div class="image-section">
-            <img src="photo.jpg" alt="Dasha">
-            <img src="sticker1.gif" alt="GIF 1">
-            <img src="sticker2.gif" alt="GIF 2">
-        </div>
-    </div>
+
+<div class="section leopard">
+    <h1>This is the site of Dasha Milash and her cute nose</h1>
+    <p>"I’m sooooo nervous (well you know me)"</p>
+    <p>"I hope to melt your heart."</p>
+    <img src="C:\Users\glush\Downloads\Telegram Desktop\trytrytry\trytrytry\images\pictures for block 1.jpeg" alt="Block 1 Photo" id="main-photo">
+    <button class="button" onclick="navigate('block2');">Дальше</button>
+    <video src="C:\Users\glush\Downloads\Telegram Desktop\trytrytry\trytrytry\images\Gif for 1 page.webm" autoplay loop></video>
+</div>
+
+<div class="section" id="block2">
+    <img src="C:\Users\glush\Downloads\Telegram Desktop\trytrytry\trytrytry\images\pictures for block 2.jpeg" alt="Block 2 Photo 1" class="instagram-style">
+    <img src="C:\Users\glush\Downloads\Telegram Desktop\trytrytry\trytrytry\images\pictures for block 2 (1).jpeg" alt="Block 2 Photo 2" class="instagram-style">
+    <img src="C:\Users\glush\Downloads\Telegram Desktop\trytrytry\trytrytry\images\pictures for block 2 (2).jpeg" alt="Block 2 Photo 3" class="instagram-style">
+    <p>"Кто эта чертова красотка? Вы гляньте на эту звездочку!"</p>
+    <button class="button" onclick="navigate('block3');">По-серьезнее</button>
+</div>
+
+<div class="section romantic" id="block3">
+    <img src="C:\Users\glush\Downloads\Telegram Desktop\trytrytry\trytrytry\images\Picture for block 3 main.jpeg" alt="Block 3 Main">
+    <p>"Даша, честно,  просто хочется сказать, что ты прекрасная. То есть, если мы берем морфемный разбор слова (аахаахаха), то мы имеем часть пре и красная, то есть ты пре крашаешье, всюду или рядом с кем бы ты не была, ты красишь компанию или место?, не только своей классной внешностью, но харизмо, даже с популярностью айкоса ты не просто его куришь, а рекламируешь, кто делает это более ярко. Где еще такую встретишь?Но без шуток, правда, ты абалдеть какая красивая девушка, и разумная девушка, что девушка ( ведь какая девушка так может крутить, ну я тебе говорил), но это правда я считаю скилл настоящей женщины и план себе построить, и немного глупышкой прикинуться. Многие к этому стремятся, смотрят каких то там коучей, а у тебя это просто есть и это просто ахуенно. И я безумно счастлив, что с тобой познакомился и сблизился... Это дорого стоит! Со всей теплотой и любовью от меня к тебе."</p>
+    <button class="button" onclick="navigate1('block4');">What next?</button>
+</div>
+
+<div class="section" id="block4">
+    <img src="C:\Users\glush\Downloads\Telegram Desktop\trytrytry\trytrytry\images\Picture for block 4..jpg" alt="Block 4 Photo">
+    <p>Happy Birthday Message</p>
+    <a href="https://www.youtube.com/watch?v=vQ_SZ-44-Vc" target="_blank">From Nikita with love</a>
+</div>
+
+<div class="section">
+    <img src="C:\Users\glush\Downloads\Telegram Desktop\trytrytry\trytrytry\images\Picture Nikita.jpeg" alt="Nikita" class="small-photo">
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
