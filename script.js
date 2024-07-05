@@ -11,11 +11,11 @@ function navigate1(id) {
 }
 
 function playSound1() {
-    const audio = new Audio('C:\\Users\\glush\\Downloads\\Telegram Desktop\\trytrytry\\trytrytry\\images\\audio_2024-07-05_13-47-41.ogg'); // Path to your audio file
+    const audio = new Audio('\\audio_2024-07-05_13-47-41.ogg');
     audio.play();
 }
 
 function playSound() {
-    const audio = new Audio('C:\\Users\\glush\\Downloads\\Telegram Desktop\\trytrytry\\trytrytry\\images\\audio_2024-07-05_13-35-32.ogg'); // Path to your audio file
+    const audio = new Audio('\\audio_2024-07-05_13-35-32.ogg'); 
     audio.play();
 }
